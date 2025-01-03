@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.MoviesApp" parent="Base.Theme.MoviesApp" />
+
+    <style name="Theme.AppCompat.Start" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="postSplashScreenTheme">@style/Theme.MoviesApp</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/animated_logo</item>
+
+    </style>
 </resources>
